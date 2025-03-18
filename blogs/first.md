@@ -1,0 +1,28 @@
+---
+ date: 2025-03-18
+ author: 
+ title: "first-blog"
+ tags: ["js", "json"]
+ layout: layout.njk
+---
+## 1. Topic 1
+
+### Intro
+
+Intro Here
+
+### Tags / Category
+
+- tags
+
+### Basic Points
+
+- points
+
+### Challenges
+
+- challenges
+
+### Conclusion
+
+Conclusion here

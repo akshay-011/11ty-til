@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>11ty-til</title>
+  </head>
+  <body>
+    <h1>Blog list</h1>
+    <ul>
+      {% for blog in collections.all%}
+      <li>{{ blog.url }}</li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
