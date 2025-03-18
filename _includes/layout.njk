@@ -3,18 +3,26 @@
   <head>
     <title>{{ title }}</title>
     <style>
+      :root {
+        --bodyBg: ghostwhite;
+        --headingsColor: #0d47a1;
+        --codeBg: #607d8b25;
+        --codeColor: #275267;
+        --mainBg: #e3f2fd;
+        --mainColor: #37474f;
+      }
       * {
         margin: 0px;
       }
 
       body {
-        background-color: rgba(255, 240, 245, 0.454);
+        background-color: var(--bodyBg);
         line-height: 1.4rem;
       }
 
       h2,
       h3 {
-        color: #874a8c;
+        color: var(--headingsColor);
       }
 
       h3 {
@@ -23,17 +31,17 @@
       }
 
       code {
-        background-color: rgba(255, 192, 203, 0.253);
-        color: #94618e;
+        background-color: var(--codeBg);
+        color: var(--codeColor);
         padding: 0.2rem;
       }
 
       main {
         width: 50vw;
-        background-color: #fce8e8;
-        color: #2c2c2c;
+        background-color: var(--mainBg);
+        color: var(--mainColor);
         box-shadow: 2px 2px 8px grey;
-        border-radius: 0.3rem;
+        border-radius: 0.4rem;
         font-family: system-ui, sans-serif;
         padding: 1rem 1.2rem 1rem 1.2rem;
         margin: 2rem auto;
