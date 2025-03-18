@@ -1,7 +1,7 @@
 ---
  date: 2025-03-18
  author: 
- title: "first-blog"
+ title: "first blog"
  tags: ["js", "json"]
  layout: layout.njk
 ---

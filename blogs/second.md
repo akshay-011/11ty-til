@@ -1,7 +1,7 @@
 ---
  date: 2025-03-18
  author: 
- title: "second-blog"
+ title: "second blog"
  tags: ["json", "js","dbms"]
  layout: layout.njk
 ---
