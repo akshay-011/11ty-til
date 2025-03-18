@@ -7,22 +7,32 @@
         margin: 0px;
       }
 
+      h2,
+      h3 {
+        color: navy;
+      }
+
       h3 {
         text-decoration: underline;
         margin: 0.6rem 0rem 0.4rem 0rem;
       }
-      
+
+      code {
+        background-color: whitesmoke;
+        padding: 0.2rem;
+      }
+
       main {
         width: 50vw;
-        background-color: lavenderblush;
-        box-shadow: 0 0 10px black;
+        background-color: #ECECEC;
+        box-shadow: 0px 0px 10px grey;
         font-family: system-ui, sans-serif;
         padding: 1rem 1.2rem 1rem 1.2rem;
-        margin: auto;
+        margin: 2rem auto;
       }
     </style>
   </head>
   <body>
-    <main>{{content | safe}}</main>
+    <main>{{ content | safe }}</main>
   </body>
 </html>
