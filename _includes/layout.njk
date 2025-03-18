@@ -2,52 +2,7 @@
 <html lang="en">
   <head>
     <title>{{ title }}</title>
-    <style>
-      :root {
-        --bodyBg: ghostwhite;
-        --headingsColor: #0d47a1;
-        --codeBg: #607d8b25;
-        --codeColor: #275267;
-        --mainBg: #e3f2fd;
-        --mainColor: #37474f;
-      }
-      * {
-        margin: 0px;
-      }
-
-      body {
-        background-color: var(--bodyBg);
-        line-height: 2rem;
-        font-size: 1.4rem;
-      }
-
-      h2,
-      h3 {
-        color: var(--headingsColor);
-      }
-
-      h3 {
-        text-decoration: underline;
-        margin: 0.6rem 0rem 0.4rem 0rem;
-      }
-
-      code {
-        background-color: var(--codeBg);
-        color: var(--codeColor);
-        padding: 0.2rem;
-      }
-
-      main {
-        width: 50vw;
-        background-color: var(--mainBg);
-        color: var(--mainColor);
-        box-shadow: 2px 2px 8px grey;
-        border-radius: 0.4rem;
-        font-family: system-ui, sans-serif;
-        padding: 4rem;
-        margin: 2rem auto;
-      }
-    </style>
+    <link rel="stylesheet" href="/static/style.css" />
   </head>
   <body>
     <main>{{ content | safe }}</main>
