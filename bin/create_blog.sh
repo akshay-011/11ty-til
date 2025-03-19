@@ -19,3 +19,4 @@ touch $BLOG_PATH && echo "blog $BLOG_PATH created";
 
 echo -e $FRONT_MATTER > $BLOG_PATH;
 cat ./_includes/template/blog_template.md >> $BLOG_PATH;
+code $BLOG_PATH;
